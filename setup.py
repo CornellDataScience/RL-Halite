@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
   name="rl-halite",
-  version="0.0.0",
+  version="0.0.1",
   author="Ryan Butler",
   author_email="thebutlah@gmail.com",
   description="A reinforcement learning agent for the halite game.",
@@ -15,7 +15,7 @@ setuptools.setup(
   packages=setuptools.find_packages(),
   classifiers=(
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 2",
+    # "Programming Language :: Python :: 2",
     "Intended Audience :: Science/Research",
     "Operating System :: OS Independent",
     "License :: Free for non-commercial use",

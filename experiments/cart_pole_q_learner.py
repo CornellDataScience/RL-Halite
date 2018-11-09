@@ -13,7 +13,7 @@ import logging
 
 from logzero import logger
 
-from models import FCQNet
+# from models import FCQNet
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -74,9 +74,9 @@ def main():
   ########################
   logger.info("Initializing framework...")
   # TODO: Actually initialize the framework
-  q_model = None  # FCQNet(...)
-  q_learner = None  # QLearner(...)
-  env = None  # CartPoleV1(...)
+  # q_model = None  # FCQNet(...)
+  # q_learner = None  # QLearner(...)
+  # env = None  # CartPoleV1(...)
 
   # Run the agent-environment interface #
   #######################################

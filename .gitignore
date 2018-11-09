@@ -1,5 +1,6 @@
 # Trash experiments
 experiments/
+!experiments/__init__.py
 !experiments/cart_pole_q_learner.py
 
 # PyCharm
